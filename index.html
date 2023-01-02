@@ -9,13 +9,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        html {
+            height: -webkit-fill-available;
+        }
+        
         body {
+            display: flex;
+            flex-direction: column;
             background: #241E20;
-            width: 100%;
             height: 100vh;
+            height: -webkit-fill-available;
+            width: 100vw;
             background-image: url(Logo1.png);
             overflow: hidden;
-            background-size: 1250px;
+            background-size: 100%;
             background-repeat: no-repeat;
             background-position: center, top;
             display: flex;
